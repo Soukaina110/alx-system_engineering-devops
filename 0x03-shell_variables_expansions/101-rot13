@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z} | tr -d 'a-m' | tr 'A-Z' 'N-ZA-M'
+echo 'A-Za-z' 'N-ZA-Mn-za-m'
