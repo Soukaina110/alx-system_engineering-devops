@@ -1,3 +1,3 @@
 #!/bin/bash
-echo $PATH | awk -F: '{print NF}'
+echo $PATH | tr  ':' '\n' | wc -l
 
